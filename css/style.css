@@ -1,0 +1,129 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  opacity: 0;
+  font-size: 1.9em;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: "futura-pt", Helvetica,sans-serif;
+  background-color: #d2f7f7;
+}
+
+ 
+body.all-loaded {
+    opacity: 1;
+}
+
+.subhead {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 5rem;
+  margin-left: 0;
+}
+
+.logocontainer {
+  background-color: #c1f4f4;
+  margin-top: 6rem;
+  padding: 4rem 0;
+}
+
+.logo {
+  background: url(../resources/hc_logo.png) no-repeat;
+  background-size: contain;
+  width: 87px;
+  height: 89px;
+  margin-top: 8%;
+}
+
+.instagram {
+  background: url(../resources/instagram.png) no-repeat;
+  margin-right: 20px;
+}
+
+.github {
+  background: url(../resources/git.png) no-repeat;
+  margin-right: 10px;
+}
+
+.linkedin {
+  background: url(../resources/linkedin.png) no-repeat;
+  margin-right: 10px;
+}
+
+.nyu {
+  width: 115px;
+  height: 31px;
+  background: url(../resources/nyu.png) no-repeat center center;
+  background-size: 115px 31px;
+  padding: 2rem 0;
+  margin: 0 auto;
+  opacity: .8;
+}
+
+.nyush {
+  width: 115px;
+  height: 31px;
+  background: url(../resources/nyush.png) no-repeat center center;
+  background-size: 115px 31px;
+  padding: 2rem 0;
+  margin: 0 auto;
+  opacity: .8;
+}
+
+.ideanomics {
+  width: 115px;
+  height: 31px;
+  background: url(../resources/ideanomics.png) no-repeat center center;
+  background-size: 115px 31px;
+  padding: 2rem 0;
+  margin: 0 auto;
+  opacity: .8;
+}
+
+@media (min-width: 550px) {
+  .nyu, .ideanomics, .nyush {
+    padding: 4.7rem 1.8rem;
+  }
+
+  .logocontainer {
+    margin-top: 7rem;
+    padding: .5rem 0;
+  }
+}
+
+
+.social {
+  border: 0;
+  width: 22px;
+  height: 22px;
+  background-size: 22px 22px;
+  float: left;
+}
+
+.social:hover {
+  opacity: .5;
+  border: 0;
+}
+
+.footer {
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 33px;
+  margin-bottom: 3rem;
+  padding-top: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+.footer a {
+  color: #000;
+  border: 0;
+}
+
+.footer a:hover {
+  opacity: .5;
+  border: 0;
+}

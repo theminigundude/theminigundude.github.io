@@ -1,0 +1,221 @@
+a {
+  color: #000;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px solid #efdcd9;
+  transition: .5s;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 50px;
+  width: 18rem;
+  padding: 0 0 0 5.1rem;
+  color: #000;
+  text-align: left;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #c1f4f4;
+  background-image: url(../resources/pdf.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 62px 17px;
+  border-radius: 0;
+  border: 1px solid #000;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  background-color: #b1f1f1;
+  outline: 0;
+  border: 1px solid #b1f1f1;
+  transition: .3s;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB;
+}
+
+ul {
+  list-style: none;
+  line-height: 2.4rem;
+  margin-left: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ol, ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+ul>li:before {
+  content: "--";
+  position: absolute;
+  margin-left: -1.2em;
+}
+
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+}
+
+pre>code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+button,
+.button {
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ol,
+form {
+  margin-bottom: 2.5rem;
+}
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.u-pull-right {
+  float: right;
+}
+
+.u-pull-left {
+  float: left;
+}
+
+hr {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  border-width: 0;
+  border-top: 2px solid #000;
+  width: 40px;
+  text-align: left;
+  margin-left: 0;
+}
+
+hr.f {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-width: 0;
+  border-top: 1px solid #9fbfdf;
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
