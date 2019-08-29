@@ -24,6 +24,7 @@ window.onload = function () {
   let output_intro = template({time: time});
   document.getElementById("intro").innerHTML += output_intro;
 
+  //footer text
   let footer = "© 2019 <a href=\"mailto:wc1369@nyu.edu\">Hansa Chen</a>. ";
   if ($(window).width() >= 426) {
     footer += "Made with ❤️in NYC."
