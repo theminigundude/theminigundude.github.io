@@ -11,7 +11,7 @@ body {
   background-color: #d2f7f7;
 }
 
- 
+
 body.all-loaded {
     opacity: 1;
 }
@@ -57,34 +57,34 @@ body.all-loaded {
   width: 115px;
   height: 31px;
   background: url(../resources/nyu.png) no-repeat center center;
-  background-size: 115px 31px;
+  background-size: 115px auto;
   padding: 2rem 0;
   margin: 0 auto;
   opacity: .8;
 }
 
-.nyush {
-  width: 115px;
+.deloitte {
+  width: 155px;
   height: 31px;
-  background: url(../resources/nyush.png) no-repeat center center;
-  background-size: 115px 31px;
+  background: url(../resources/deloitte.png) no-repeat center center;
+  background-size: 115px auto;
   padding: 2rem 0;
   margin: 0 auto;
   opacity: .8;
 }
 
 .ideanomics {
-  width: 115px;
+  width: 155px;
   height: 31px;
   background: url(../resources/ideanomics.png) no-repeat center center;
-  background-size: 115px 31px;
+  background-size: 155px auto;
   padding: 2rem 0;
   margin: 0 auto;
   opacity: .8;
 }
 
 @media (min-width: 550px) {
-  .nyu, .ideanomics, .nyush {
+  .nyu, .ideanomics, .deloitte{
     padding: 4.7rem 1.8rem;
   }
 
