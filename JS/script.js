@@ -19,13 +19,13 @@ window.onload = function () {
   else if (hour >= 12 && hour < 18) time = "Good afternoon";
 
   //handlebar injects time into HTML
-  let intro = "<h1>{{time}}, <br>Welcome to Hansa Chen's journal — <br>Software Developer, Information Technologist and Blockchain Enthusiast.</h1>";
+  let intro = "<h1>{{time}}, <br>Welcome to Hansa Chen's journal — <br>Software Developer, Cloud Technologist and Blockchain Enthusiast.</h1>";
   let template = Handlebars.compile(intro);
   let output_intro = template({time: time});
   document.getElementById("intro").innerHTML += output_intro;
 
   //footer text
-  let footer = "© 2019 <a href=\"mailto:wc1369@nyu.edu\">Hansa Chen</a>. ";
+  let footer = "© 2020 <a href=\"mailto:wc1369@nyu.edu\">Hansa Chen</a>. ";
   if ($(window).width() >= 426) {
     footer += "Made with ❤️in NYC."
   }
