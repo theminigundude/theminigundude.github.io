@@ -73,11 +73,11 @@ body.all-loaded {
   opacity: .8;
 }
 
-.ideanomics {
-  width: 155px;
-  height: 31px;
-  background: url(../resources/ideanomics.png) no-repeat center center;
-  background-size: 155px auto;
+.aws {
+  width: 105px;
+  height: 87px;
+  background: url(../resources/aws.png) no-repeat center center;
+  background-size: 62px auto;
   padding: 2rem 0;
   margin: 0 auto;
   opacity: .8;
